@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Produtos e Serviços</title>
+</head>
+<body>
+    <header>
+         <h2>Produtos e Serviços</h2>
+    </header>
+    <main>
+        <div class="cart">
+            <label>Nome Cliente :</label>
+            <input id="nomeCliente" type="text">
+            <label>Rua :</label>
+            <input id="ruaCliente" type="text">
+            <label>Número :</label>
+            <input id="numeroCliente" type="text">
+            <button onclick="addCliente()">Add Cliente</button><br>
+            <label>Produto Nome :</label>
+            <input id="pname" type="text">
+            <label>Quantidade :</label>
+            <input id="pqty" type="number">
+            <label>Unit Preço :</label>
+            <input id="price" type="number">
+            <button onclick="addItem()">Add Item</button>
+            <button onclick="imprimir()">imprimir</button>
+        </div>
+        <div class="cart1" id="cart1">
+
+        </div>
+        <div class="cart" id="cart">
+           
+        </div>
+    </main>
+   <script src="Js/main.js"></script> 
+</body>
+</html>
